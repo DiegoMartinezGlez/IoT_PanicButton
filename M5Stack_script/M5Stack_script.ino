@@ -26,7 +26,7 @@ void connectToNetwork()
       delay(1000);
       M5.Lcd.printf(".");
     }
-    M5.Lcd.print("Conectado!!\n\n");
+    M5.Lcd.print("Connected!!\n\n");
 }
 
 void request()
@@ -39,6 +39,7 @@ void request()
     if (httpCode > 0) { //Check for the returning code
         String payload = http.getString();
         M5.Lcd.print(payload);
+        M5.Lcd.printf("\n");
     }
     else 
     {
