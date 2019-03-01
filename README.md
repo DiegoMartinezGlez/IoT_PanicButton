@@ -1,7 +1,5 @@
 # IoT Panic Button
-This is a minimal project to connect an IoT button with a server that stores alerts and could trigger actions.
-
-I've used M5Stack &amp; Raspberry: M5Stack makes HTTP request for a nodejs microservice deployed on Raspberry to trigger some action.
+This is a project to create an IoT button/trigger. I've used M5Stack &amp; Raspberry: M5Stack makes HTTP requests to a nodejs microservice deployed on Raspberry to trigger some action.
 
 <p align="center"><img src="hardware.png" /></p>
 
