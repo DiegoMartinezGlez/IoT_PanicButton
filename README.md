@@ -3,7 +3,7 @@ This is a minimal project to connect an IoT button with a server that stores ale
 
 I've used M5Stack &amp; Raspberry: M5Stack makes HTTP request for a nodejs microservice deployed on Raspberry to trigger some action.
 
-![Hardware](./hardware.png)
+<p align="center"><img src="hardware.png" /></p>
 
 **M5Stack** is an Arduino development stack (more info here: https://github.com/m5stack) and could be replaced with ESP32+button or Arduino+Button+WiFi module.
 
