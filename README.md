@@ -1,11 +1,13 @@
 # IoT Panic Button
-This is a project to create an IoT button/trigger. I've used M5Stack &amp; Raspberry: M5Stack makes HTTP requests to a nodejs microservice deployed on Raspberry to trigger some action.
+This is a project base for an IoT button/trigger. The goal is to raise an *alert/notification* from a small IoT device to the cloud
+
+I've used M5Stack &amp; Raspberry: M5Stack makes HTTP requests to a nodejs microservice deployed on Raspberry to trigger some action. But you could replace the Raspberry with any other device or cloud service (any place where you would be able to deploy a nodejs service).
 
 <p align="center"><img src="hardware.png" /></p>
 
-**M5Stack** is an Arduino development stack (more info here: https://github.com/m5stack) and could be replaced with ESP32+button or Arduino+Button+WiFi module.
+**M5Stack** is an Arduino development stack (more info here: https://github.com/m5stack) and could be replaced with ESP32+button or Arduino+Button+WiFi module (and you will need to replace M5Stack library references in the *ino* script with custom code, that's why M5Stack is very agile tool for arduino/esp32 development and tests).
 
-**Raspberry** is mini pc board (https://www.raspberrypi.org/)
+**Raspberry** is mini-pc board (https://www.raspberrypi.org/)
 
 ## **Requeriments:** 
 - Some basic experience with Arduino/esp32/M5Stack (setup Arduino IDE, compile/upload scripts)
